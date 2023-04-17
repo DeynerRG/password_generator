@@ -10,4 +10,3 @@ def generate_password(password_length):
     password = "".join(password)
     return password
 
-print(generate_password(8))

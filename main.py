@@ -1,8 +1,7 @@
 from random import *
 from string import ascii_lowercase, ascii_uppercase, punctuation
 
-def generate_password(length):
-    password_length = length
+def generate_password(password_length):
     lower_case = ascii_lowercase
     upper_case = ascii_uppercase
     special_characters = punctuation
